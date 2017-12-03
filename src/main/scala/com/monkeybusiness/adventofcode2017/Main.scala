@@ -1,5 +1,6 @@
 package com.monkeybusiness.adventofcode2017
 
+import com.monkeybusiness.adventofcode2017
 import com.monkeybusiness.adventofcode2017.tools.SolutionTracker.Solution
 import com.monkeybusiness.adventofcode2017.tools.{HttpCommunicator, SolutionTracker}
 
@@ -21,7 +22,7 @@ object Main {
 
   def main(args: Array[String]): Unit = {
 
-    val implementedSolutions = Seq(Challenge1, Challenge2)
+    val implementedSolutions = Seq(Challenge1, Challenge2, Challenge3)
 
     val solutions = SolutionTracker.readSolutions
 
