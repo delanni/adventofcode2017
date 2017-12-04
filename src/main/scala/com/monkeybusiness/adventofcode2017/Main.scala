@@ -22,7 +22,7 @@ object Main {
 
   def main(args: Array[String]): Unit = {
 
-    val implementedSolutions = Seq(Challenge1, Challenge2, Challenge3)
+    val implementedSolutions = Seq(Challenge1, Challenge2, Challenge3, Challenge4)
 
     val solutions = SolutionTracker.readSolutions
 
