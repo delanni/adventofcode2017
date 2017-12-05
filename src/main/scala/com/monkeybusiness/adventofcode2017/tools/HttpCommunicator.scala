@@ -28,7 +28,8 @@ object HttpCommunicator {
       .asString
 
     if (response.code == 200)
-      if (response.body.contains("That's the right answer!")) Some(true)
+      if (response.body.contains("left to wait.")) None
+      else if (response.body.contains("That's the right answer!")) Some(true)
       else if (response.body.contains("right level")) None
       else Some(false)
     else
